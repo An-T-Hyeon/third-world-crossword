@@ -25,10 +25,12 @@
         background-color: #FFF;
 	}
 		table {
-			max-width: 90%;
+			max-width: 100%;
+            max-height: 100%;
 		}
 		table tr{
-			width: 100%;
+			width: 0;
+            height: 0;
 		}
 		table td {
 			width: 5em;
@@ -82,13 +84,14 @@
 		
 		#puzzle-wrapper {
 			float: left;
-			width: 55%;
+			width: auto;
+            height: auto;
 			margin-right: 3%;
             font-size:15px;
 		}
 		#puzzle-clues {
 			float: left;
-			width: 40%;
+			width: 50%;
             font-size:15px;
 		}
 		
@@ -97,6 +100,27 @@
 			line-height: 1.6em;
             font-size:20px;
 		}
+    
+    @media ( max-width: 800px ) {
+        table td {
+            width: 45px;
+            height: 45px;
+        }
+        td input {
+            font-size: 30px;
+        }
+        #puzzle-wrapper {
+            width: auto;
+        }
+        #puzzle-clues {
+            float: none;
+            width: auto;
+        }
+        #puzzle-clues li {
+            float: none;
+            width: auto;
+        }
+    }
 		
 	</style>
 
