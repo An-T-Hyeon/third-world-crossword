@@ -1,0 +1,116 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="kr"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>제3세계 문화연구 5조 발표팀 낱말 맞추기 게임</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.crossword.js"></script>
+	<script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+
+	<style type="text/css" media="screen">
+	/*
+		Default puzzle styling
+	*/
+	body {
+		font-family: 'Jua', sans-serif;
+        font-size:22px;
+		width: 90%;
+		margin: 30px auto;
+        background-color: #FFF;
+	}
+		table {
+			max-width: 90%;
+		}
+		table tr{
+			width: 100%;
+		}
+		table td {
+			width: 5em;
+			height: 5em;
+            border: thick #FFF;
+            border-radius: 18px;
+			padding: 0;
+			margin: 0;
+			background-color: #FFF;
+			position: relative;
+		}
+				
+		td input {
+			width: 100%;
+			height: 100%;
+			padding: 0em;
+            border: thick #FFF;
+            border-radius: 18px;
+			text-align: center;
+            font-family: 'Jua', sans-serif;
+			font-size: 3em;
+			color: #1DB5CE;
+			background-color: #91F0FE;
+		}
+		
+		td input:focus {
+			background-color: #C0F7FE;
+		}
+		
+		td span {
+			color: #FFF;
+			font-size: 0.8em;
+			position: absolute;
+			top: 5px;
+			left: 10px;
+		}
+		
+		input.done {
+			font-weight: bold;
+            color: #FFF;
+		}
+		
+		.active,
+		.clues-active {
+			background-color: #C0F7FE;
+		}
+		.clue-done {
+			color: #999;
+			text-decoration: line-through;
+		}
+		
+		#puzzle-wrapper {
+			float: left;
+			width: 55%;
+			margin-right: 3%;
+            font-size:15px;
+		}
+		#puzzle-clues {
+			float: left;
+			width: 40%;
+            font-size:15px;
+		}
+		
+		#puzzle-clues li{
+			margin: .1em;
+			line-height: 1.6em;
+            font-size:20px;
+		}
+		
+	</style>
+
+</head>
+
+<body>
+	안녕하세요<br>
+    저희는 '위구르, 중국의 소수 민족 정책'을 발표하고 있는 5조입니다<br>
+    발표한 내용을 간단하게 정리해보는 십자말풀이를 준비해보았습니다!<br>
+    단서를 보시고 화살표로 이동해가면서 한글자씩 정답을 채워주세요!<br>
+    <br>
+    1,2,3등께는 맛있는 젤리를, 완성하신 모든 분께 키가 쑥쑥 텐텐을 드려요! ><
+    <br><br>
+    <div id="puzzle-wrapper"><!-- crossword puzzle appended here --></div>
+    <br>
+</body>
+</html>	
