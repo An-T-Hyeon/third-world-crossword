@@ -6,7 +6,7 @@
 		// two entries: an across entry and a down entry
 		var puzzleData = [
 			 	{
-					clue: "세상에서 제일 잘생긴 사람은?",
+					clue: "내가 누구게?",
 					answer: "안태현",
 					position: 1,
 					orientation: "across",
@@ -14,92 +14,69 @@
 					starty: 1
 				},
 			 	{
-					clue: "Not a one ___ motor, but a three ___ motor",
-					answer: "phase",
+					clue: "태현이가 가장 좋아하는 부침개는?",
+					answer: "오징어김치부침개",
 					position: 2,
 					orientation: "across",
-					startx: 7,
-					starty: 1
-				},
-				{
-					clue: "Created from a separation of charge",
-					answer: "capacitance",
-					position: 5,
-					orientation: "across",
-					startx: 1,
-					starty: 3
-				},
-				{
-					clue: "The speeds of engines without and accelaration",
-					answer: "idlespeeds",
-					position: 8,
-					orientation: "across",
-					startx: 1,
-					starty: 5
-				},
-				{
-					clue: "Complex resistances",
-					answer: "impedances",
-					position: 10,
-					orientation: "across",	
 					startx: 2,
-					starty: 7
+					starty: 6
 				},
 				{
-					clue: "This device is used to step-up, step-down, and/or isolate",
-					answer: "transformer",
-					position: 13,
+					clue: "태현이가 가장 좋아하는 영화는",
+					answer: "컨택트",
+					position: 3,
 					orientation: "across",
-					startx: 1,
-					starty: 9
+					startx: 3,
+					starty: 8
 				},
+
 				{
-					clue: "Defines the alpha-numeric characters that are typically associated with text used in programming",
-					answer: "ascii",
+					clue: "태현이가 아들을 낳으면 지어줄 이름은?",
+					answer: "안녕",
 					position: 1,
 					orientation: "down",
 					startx: 1,
 					starty: 1
 				},
 				{
-					clue: "Generally, if you go over 1kV per cm this happens",
-					answer: "arc",
+					clue: "태현이가 초등학교 때 가장 좋아하던 시간은 OOOO학습시간이다.",
+					answer: "현장체험",
 					position: 2,
 					orientation: "down",
-					startx: 5,
+					startx: 3,
 					starty: 1
 				},
 				{
-					clue: "Control system strategy that tries to replicate the human through process (abbr.)",
-					answer: "ann",
-					position: 4,
-					orientation: "down",
-					startx: 9,
-					starty: 1
-				},
-				{
-					clue: "Greek variable that usually describes rotor positon",
-					answer: "theta",
-					position: 6,
+					clue: "태현이가 다니는 과는?",
+					answer: "기술경영학부",
+					position: 3,
 					orientation: "down",
 					startx: 7,
-					starty: 3
+					starty: 1
 				},
 				{
-					clue: "Electromagnetic (abbr.)",
-					answer: "em",
-					position: 7,
+					clue: "응답하라1994에서 태현이가 지지했던 파는?",
+					answer: "어남택",
+					position: 4,
 					orientation: "down",
-					startx: 11,
-					starty: 3
+					startx: 4,
+					starty: 6
 				},
 				{
-					clue: "No. 13 across does this to a voltage",
-					answer: "steps",
-					position: 9,
+					clue: "태현이가 가장 좋아하는 곳은?",
+					answer: "침대",
+					position: 5,
+					orientation: "down",
+					startx: 8,
+					starty: 6
+				},
+				{
+                    clue: "태현이가 가장 잘 잡는 것은? Hint : OO 좀 그만 잡아",
+					answer: "트집",
+					position: 6,
 					orientation: "down",
 					startx: 5,
-					starty: 5
+					starty: 8
 				}
 			] 
 	
