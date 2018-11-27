@@ -55,7 +55,7 @@
 					starty: 1
 				},
 				{
-					clue: "응답하라1994에서 태현이가 지지했던 파는?",
+					clue: "응답하라1988에서 태현이가 지지했던 파는?",
 					answer: "어남택",
 					position: 4,
 					orientation: "down",
